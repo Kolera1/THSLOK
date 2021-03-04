@@ -44,7 +44,7 @@ p=input('Enter password:  ')
 clint=amino.Client()
 clint.login(email=e,password=p)
 
-x='http://aminoapps.com/p/84by0k'
+x='http://aminoapps.com/p/6l9w4j'
 s=clint.get_from_code(x)
 comId=s.path[1:s.path.index('/')]
 clint.join_community(comId=comId)
